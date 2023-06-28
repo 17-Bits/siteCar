@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+/* CSS RESET
+---------------------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/
+    Licença: nenhuma (domínio público)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
+big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, 
+canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, 
+mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}    
+/*Redefinição da função de exibição HTML para navegadores mais antigos */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    color: #000000;
+    font: 100% "Liberation Serif", Arial, sans-serif;
+    padding-bottom: 20px;
+}
+
+.logo {
+	color: rgb(2, 2, 2); 
+	font-weight: bold;
+}
+
+h2 {
+	color: #000000;
+	text-align: left;
+    font: 50px "Times New Roman", Arial, sans-serif;
+	font-weight: bold;
+	padding: 0;
+}
+
+aside div h3  {
+	color: #000000;
+	font: 20px "Times New Roman", Arial, sans-serif;
+	font-weight: bold;
+	padding-top: 0%;
+	
+}
+
+aside h3 {
+	font: 40px "Times New Roman", Arial, sans-serif;
+	font-weight: bold;
+	padding-top: 40px;
+
+}
+
+
+p {
+	color: #000000;
+	font: 20px "Liberation Serif", Arial, sans-serif;	
+	padding-bottom: 5px;
+}
+
+
+/* ----------------------- CONTAINER --------------------------*/
+
+#container {
+   	background-color: rgb(255, 255, 255);
+	margin: auto;
+	margin-top: 0;
+    max-width: 810px;
+    width: 90%;
+
+}
+
+
+/* ------------------------ LINHA VERTICAL ----------------------*/
+
+.linha {
+	border: 1px solid #000000;
+}
+
+/* --------------------- MASTHEAD - CABEÇALHO PRINCIPAL --------------------*/
+#masthead {
+    background-color: rgb(255, 255, 255);
+	margin: auto;
+	margin-top: 250px;
+	max-width: 810px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 50px;
+
+}
+ 
+
+/*------------------------------- Textos ----------------------------------*/
+
+#titulo {
+    font-size: 4em;
+    margin: 0;
+    text-align: left;
+	text-decoration: none;
+	font-weight: bold;
+}
+#subtitulo {
+	font-size: 25px;
+}
+
+
+/*------------------------------ Nav do site -----------------------------*/
+
+.nav {
+    margin-top: 40px;
+	text-decoration: none;
+
+}
+
+.nav li a {
+    font-size: 1.5em;
+    padding: 0 25px 3px;
+	text-decoration: none;
+	color: #353535;
+}
+
+.nav li a:hover {
+	color: blue;
+}
+
+/*------------------------------------ Fotos ----------------------------- */
+
+
+.foto {
+	padding: 0.5em 0 ;
+
+}
+.banner{
+	background: url(img/banner.png);
+	position: absolute;
+	height: 521px;
+	width: 1024px;
+	margin-left: 210px;
+	margin-right: 210px;
+}
+
+.minifotos {
+	float: left;
+	width: 180px;
+	padding-right: 20px;
+	-webkit-filter: grayscale(0%);
+	transition: 1s;
+}
+
+.minifotos:hover{
+	-webkit-filter: grayscale(100%);
+	transition: 1s;
+}
+
+.minifotos :last-child{
+	padding-right: 0;
+	
+}
+
+/* --------------------------  Alinhando as imagens do footer ------------------------*/
+
+#related div {
+	padding-top: 10px;
+	display: inline;
+	
+}
+
+#related img {
+	vertical-align: middle;
+	
+}
+
+
+/*-------------------------------- FOOTER --------------------------------*/
+
+.footer {
+	background: rgba(255, 255, 255, 0.836);	
+
+}
+.footer p {
+	font-size: 1.1em;
+	padding-bottom: 0.5em
+}
+
+/*------------------------------ CONTATOS ---------------------------------*/
+
+#contatos {
+	padding-top: 500px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+
+
+
